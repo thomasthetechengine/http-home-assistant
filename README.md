@@ -21,7 +21,11 @@ Then to run the server, in your CLI, type `forever .`
 # Usage
 
 HTTP Request can be made from any device & web browser, example:
-`http://192.168.0.9:30003/ha/switch.plug2/switch/turn_off?apikey=YOURAPIKEY`
+`http://192.168.0.9:30003/ha/switch.plug2/switch/turn_on?apikey=YOURAPIKEY`
 
 Format:
 `http://WEBSERVERIP:PORT/ha/:entity/:domain/:servicetype?apikey=YOURAPIKEY`
+
+Properties of an entiy can also be changed with your service call, example:
+
+`http://192.168.0.9:30003/ha/switch.plug2/switch/turn_on?apikey=YOURAPIKEY&property=color_temp_kelvin&value=2700`
