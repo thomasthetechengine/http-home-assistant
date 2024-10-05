@@ -14,4 +14,4 @@ Run `node .`
 If you want the server to auto restart after a crash / error, install forever
 `npm install forever -g` 
 
-Then to run the server, in your CLI, type `forever.`
+Then to run the server, in your CLI, type `forever .`
