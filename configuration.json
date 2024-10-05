@@ -1,0 +1,14 @@
+{
+    "WebServerConfig": {
+        "Port": 30003,
+        "WebKey": "djw83jf899f98qf98ajf9msdakwlfewlk"
+    },
+    "HomeAssistantConfig": {
+        "Host": "192.168.30.10",
+        "Port": "8123",
+        "Token": "",
+        "Protocol": "ws"
+    },
+    "EntityGet": "",
+    "Debug": true
+}

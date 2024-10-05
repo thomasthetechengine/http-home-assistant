@@ -1,0 +1,17 @@
+{
+  "name": "hassxwebserver",
+  "version": "1.0.0",
+  "description": "Simple web server that accepts HTTP requests, and forwards them to home assistant service calls.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Hill",
+  "license": "MIT",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "express": "^4.21.0",
+    "node-homeassistant": "^1.6.0",
+    "promisify-child-process": "^4.1.2"
+  }
+}
