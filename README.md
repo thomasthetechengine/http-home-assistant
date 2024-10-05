@@ -29,3 +29,9 @@ Format:
 Properties of an entiy can also be changed with your service call, example:
 
 `http://192.168.0.9:30003/ha/switch.plug2/switch/turn_on?apikey=YOURAPIKEY&property=color_temp_kelvin&value=2700`
+
+# Use cases
+
+I quickly developed this plugin so I could trigger relays from my Yealink T46Us and T48Us around my house, since the Line Keys (also known as DSS or Shortcut keys) can send basic HTTP get requests.
+
+Its not the most secure way of going about it, since the API Key is the only form of protection against unauthorised requests, which isn't a problem providing you do not port forward this server.
